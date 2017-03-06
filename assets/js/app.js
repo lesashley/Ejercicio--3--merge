@@ -9,4 +9,5 @@ document.getElementById("calcular").onclick = function Peso() {
         "Urano      : " + (masa*8.69).toFixed(2) +"\n"+
         "Neptuno  : " + (masa*11).toFixed(2) +"\n"+
         "Plutón      : " + (masa*0.81).toFixed(2) +"\n")
+        
 }
