@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Peso en el espacio</title>
+	<meta charset="UTF-8">
+	<title>Document</title>
 </head>
-<body background = "assets\images\descargas.jpg">
-  <form class="" ALIGN=center >
-    <h1><font color = "white">
-      Tu peso en el espacio</h1>
-    </font>
-    <div>
-      <button  name="button" id="calcular">Calcular</button>
-    </div>
-  </form>
-  <script src ="assets\js\app.js">
+<body style="background-image: url('assets/img/fondo.gif')" align = "center" >
 
-  </script>
+<form action="" >
+	<font color = "White">
+	<h1 >Tu peso en el Espacio</h1>
+	<h2>Llena la siguiente información</h2>
+	<label for="peso">Peso en la Tierra: </label>
+	<input id = 'peso' type="number"  required	><br><br>
+	<label for="peso">Seleccione un Planeta: </label>
+	</font>
+	<select name="Select a planet" id="planeta" required="" onchange="calculoPeso(); return false;">
+	<option value="">Seleccione</option>
+	<option value="Mercurio">Mercurio</option>
+	<option value="Venus">Venus</option>
+	<option value="Marte">Marte</option>
+	<option value="Tierra">Tierra</option>
+	<option value="Jupiter">Jupiter</option>
+	<option value="Saturno">Saturno</option>
+	<option value="Urano">Urano</option>
+	<option value="Neptuno">Neptuno</option>
+	<option value="Plutón">Plutón</option>
+	</select><br><br>
+	<input type="submit" id = "todo" name="" value="Calcular Todo"><br><br>
+	<textarea name="resultado" id="resultado" cols="30" rows="10"></textarea>
+</form>
+
+<script id="" src ="assets/js/main.js"></script>
+
 </body>
 </html>
